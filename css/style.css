@@ -1,0 +1,297 @@
+/************************ CSS : index.html *****************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#242A30;
+}
+
+.titrelol{
+    width: 100%;
+    height: 100px;
+    color: royalblue;
+}
+
+h1{
+    font-family: 'Montserrat', bold;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    color: whitesmoke;
+    /* text-shadow: 4px 4px 6px #000000; */
+}
+
+.container{
+    display: flex;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 80px;
+    border-radius: 35px;
+    box-shadow: 20px 20px 60px 2px black;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: Montserrat, bold;
+    font-size: 200%;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-family: Montserrat, semi-bold;
+    font-size: 120%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pokeapi {
+    display: block;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    border-radius: 35px 0 0 35px;
+    line-height: 50%;
+    transition: background-color 0.5s ease-out;
+}
+
+.pokeapi:hover{
+    background-color: red;
+}
+
+.pokemon{
+    padding-top: 47%;
+    height: 51%;
+    text-align: center;
+    color: red;
+}
+
+.pokemon:hover{
+    color: white;
+    transition: color 0.5s ease-out;
+}
+
+.lolapi{
+    display: block;
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 35px 35px 0;
+    line-height: 50%;
+    transition: background-color 0.5s ease-out;
+}
+
+.lolapi:hover{
+    background-color: yellow;
+}
+
+.lol{
+    padding-top: 47%;
+    height: 51%;
+    text-align: center;
+    color: yellow;
+}
+
+.lol:hover{
+    color: blue;
+    transition: color 0.5s ease-out;
+}
+
+/************************ CSS : apipokemon.html *****************************/
+
+.namepokemon{
+    height: 50px;
+    width: 100%;
+    font-family: Montserrat, bold;
+    font-size: 130%;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.imagepokemon{
+    float: left;
+    text-align: center;
+    clear: both;
+    height: 80%;
+    min-width: 180px;
+}
+
+.formpokemon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 3px solid red;
+    border-radius: 35px;
+}
+
+.inputpokemon{
+    width: 70%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid red;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    outline: none;
+    color: red;
+    display: block;
+    margin-right: 10%;
+    font-family: Montserrat, semi-bold;
+}
+
+::placeholder{
+    color: #242a30;
+}
+
+.inputstyle{
+    height: 50px;
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:40px;
+}
+
+.buttonpokemon{
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid red;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    display: block;
+    outline: none;
+    font-family: Montserrat, bold;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+.buttonpokemon:hover {
+    background-color: red;
+    color: white;
+}
+
+.titrepokemon{
+    width: 100%;
+    height: 100px;
+    color: red;
+}
+
+/************************ CSS : apilol.html *****************************/
+
+.namechamp{
+    height: 50px;
+    width: 100%;
+    font-family: Montserrat, bold;
+    font-size: 130%;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.imagelol{
+    float: left;
+    text-align: center;
+    clear: both;
+    height: 70%;
+    min-width: 180px;
+    padding-top: 15px;
+}
+
+.formlol{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 3px solid royalblue;
+    border-radius: 35px;
+}
+
+.inputlol{
+    width: 70%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid royalblue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    outline: none;
+    color: royalblue;
+    display: block;
+    margin-right: 10%;
+    font-family: Montserrat, semi-bold;
+}
+
+::placeholder{
+    color: #242a30;
+}
+
+.inputstyle{
+    height: 50px;
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:40px;
+}
+
+.buttonchamp{
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 3px solid royalblue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    display: block;
+    outline: none;
+    font-family: Montserrat, bold;
+    color: royalblue;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+.buttonchamp:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.titrechamp{
+    width: 100%;
+    height: 100px;
+    color: royalblue;
+}
+
+.formlol{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 3px solid royalblue;
+    border-radius: 35px;
+}
+
+.detailschamp{
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
