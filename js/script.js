@@ -65,7 +65,7 @@ function namechamp(){
         console.log(url);
         */
 
-        var image = 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' + key + '_0.jpg'
+        var image = 'https://ddragon.leagueoflegends.com/cdn/img/champion/splash/' + key + '_0.jpg'
         console.log(image);
 
 
