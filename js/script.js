@@ -36,7 +36,7 @@ function namepokemon(){
 
 function namechamp(){
     const lolapi = {
-        url:'http://ddragon.leagueoflegends.com/cdn/9.23.1/data/en_US/',
+        url:'https://ddragon.leagueoflegends.com/cdn/9.23.1/data/en_US/',
         type: 'champion',
         name: document.getElementById('2').value,
         end: '.json'
